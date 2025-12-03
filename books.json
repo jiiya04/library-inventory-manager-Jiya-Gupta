@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "isbn": "9780747532743",
+    "status": "available"
+  },
+  {
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "isbn": "9780061122415",
+    "status": "issued"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "isbn": "9780446310789",
+    "status": "available"
+  },
+  {
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "isbn": "9780735211292",
+    "status": "available"
+  },
+  {
+    "title": "Think Like a Monk",
+    "author": "Jay Shetty",
+    "isbn": "9781982134488",
+    "status": "issued"
+  }
+]
