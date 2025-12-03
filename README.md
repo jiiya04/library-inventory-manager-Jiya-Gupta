@@ -1,42 +1,38 @@
-# Library Inventory Manager
+# Library Inventory Management System
 
-This is a Python project that manages a small library of books.  
-It allows adding books, issuing and returning them, searching books, and saving the catalog in a JSON file.
+This project is a simple library management system created for the Programming for Problem Solving using Python course.
 
+## Features
+- Add a new book
+- Issue a book
+- Return a book
+- Search for books by title or ISBN
+- View all books
+- Data stored in JSON (`books.json`)
 
-
-## Project Features
-- Book class with title, author, ISBN, and status  
-- LibraryInventory class to add, search, issue, return, and display books  
-- Data saved in `data/catalog.json` using JSON  
-- Menu-driven CLI (`cli/main.py`)  
-- Basic error handling and logging  
-- Proper folder structure with Python packages
-
-
-
-## Folder Structure
-library_manager/
-book.py
-inventory.py
-cli/
-main.py
-data/
-catalog.json
-README.md
-requirements.txt
-
-
+## Project Structure
+.
+├── library_manager/
+│   ├── __init__.py
+│   ├── book.py
+│   └── inventory.py
+├── cli/
+│   └── main.py
+├── books.json
+├── README.md
+├── .gitignore
+└── requirements.txt
 
 ## How to Run
-Open terminal in the project folder and run:
-python -m cli.main
+1. Open Command Prompt
+2. Navigate to the project folder
+3. Run:
+
+   python -m cli.main
+
+You can also run directly:
+
+   python cli/main.py
 
 ## Requirements
-This project uses only Python's built-in modules:
-- json  
-- pathlib  
-- logging  
-- dataclasses  
-
-No external installations required.
+This project uses only Python built-in libraries (no external installation needed).
